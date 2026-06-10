@@ -179,25 +179,27 @@ function App() {
       </section>
 
       {/* RESUME */}
-      <section
-        style={{
-          padding: "50px 20px",
-          textAlign: "center",
-        }}
-      >
-        <h2>Resume</h2>
+<section
+  style={{
+    padding: "50px 20px",
+    textAlign: "center",
+  }}
+>
+  <h2>Resume</h2>
 
-        <button
-          style={{
-            padding: "12px 24px",
-            fontSize: "16px",
-            borderRadius: "8px",
-            cursor: "pointer",
-          }}
-        >
-          Download Resume
-        </button>
-      </section>
+  <a href="/SHAIMA_DOC.pdf" download>
+    <button
+      style={{
+        padding: "12px 24px",
+        fontSize: "16px",
+        borderRadius: "8px",
+        cursor: "pointer",
+      }}
+    >
+      Download Resume
+    </button>
+  </a>
+</section>
 
       {/* CONTACT */}
       <section
